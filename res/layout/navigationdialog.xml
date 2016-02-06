@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/btndayOne"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_weight="1"
+            android:background="#CCCCCC"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btnDayTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:background="#CCCCCC"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btnDayThree"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#CCCCCC"
+            android:text="3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

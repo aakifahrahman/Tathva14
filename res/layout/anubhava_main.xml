@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    tools:context="org.tathva.triloaded.anubhava.AnubhavaMain"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:background="#FF4444"
+        android:fadingEdge="horizontal" >
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/anu_commentbutton" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/postButton"
+            android:background="@drawable/anu_profile_icon" />
+
+        <org.tathva.triloaded.customviews.TextFontastic
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/profileButton"
+            android:layout_alignBottom="@+id/profileButton"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:text="anubhava"
+            android:textColor="#EEEEEE"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" >
+
+        <org.tathva.triloaded.customviews.CustomListView
+            android:id="@+id/photolist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:divider="#00FFFFFF"
+            android:layoutAnimation="@anim/placelist_layout_anim"
+            android:scrollbars="none" >
+        </org.tathva.triloaded.customviews.CustomListView>
+
+        <org.tathva.triloaded.customviews.LoaderImage
+            android:id="@+id/loaderView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="54dp" />
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>

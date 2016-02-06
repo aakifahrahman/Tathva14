@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="MenuArc">
+        <attr name="customstyle">
+            <flag name="normal" value="0" />
+            <flag name="wheel" value="1" />
+        </attr>
+        <attr name="mode" format="integer">
+            <flag name="text" value="0" />
+            <flag name="icon" value="1" />
+        </attr>
+        
+    </declare-styleable>
+</resources>

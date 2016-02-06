@@ -1,0 +1,74 @@
+@font-face
+{
+font-family: opensans;
+src:url("file:///android_asset/fonts/OpenSans-Regular.ttf");
+}
+*{
+		box-sizing:border-box;
+		margin:0;
+		padding:0;
+		border:0;
+		font-size: 100%;
+		vertical-align: baseline;
+		font-family:opensans;
+}
+body{
+width:100%;
+height:100%;
+margin:auto;
+margin-bottom:50px;
+background-color:#777777;
+padding-left:5%;
+padding-right:5%;
+font-size:1em;
+text-align:justify;
+color:#EEEEEE;
+}
+h1{
+	font-size:1.5em;
+	color:#FFFFFF;
+	text-shadow:0px 0px 10px #777777;
+	margin-top:25px;
+	margin-bottom:20px;
+	margin-left:-2.5%;
+}
+
+h2{
+	font-size:1.2em;
+	color:#FFFFFF;
+	text-shadow:0px 0px 10px #777777;
+	margin-top:10px;
+	margin-bottom:15px;
+	margin-left:-1.5%;
+
+}
+ul{
+	font-size:1em;
+	margin-left:4%;
+	margin-right:4%;
+	text-align:justify;
+	margin-top:10px;
+}
+ul li{
+	color:#EEEEEE;
+	list-style:square;
+}
+ol{
+	font-size:1em;
+	margin-left:4%;
+	margin-right:4%;
+	text-align:justify;
+	margin-top:10px;
+}
+ol li{
+	color:#EEEEEE;
+	list-style:square;
+}
+
+img{
+	width:100%;
+	margin-top:10px;
+}
+b{
+color:#FFFFFF;
+}

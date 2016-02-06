@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:minWidth="300dp" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="10dp"
+    android:background="#4F4F4F"
+    android:minWidth="300dp"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/teamOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/teamCollegeone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamOne"
+        android:layout_below="@+id/teamOne"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Results"
+        android:textColor="#EEEEEE"
+        android:minWidth="50dp"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamOne"
+        android:layout_below="@+id/teamCollegeone"
+        android:layout_marginTop="15dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/teamCollege2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamCollegeone"
+        android:layout_below="@+id/team2"
+        android:layout_marginTop="10dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/team3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/team2"
+        android:layout_below="@+id/teamCollege2"
+        android:layout_marginTop="15dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/teamCollege3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/teamCollege2"
+        android:layout_below="@+id/team3"
+        android:layout_marginTop="10dp"
+        android:minWidth="50dp"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
+
+</ScrollView>
